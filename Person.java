@@ -38,7 +38,7 @@ public class Person{
     public void display(){
         System.out.println("name: " + this.name);
         System.out.println("age: " + this.age);
-        System.out.println("and (he/she) is ");
+        System.out.println("and (he/she) is " + isAdult());
     }
 
 }
