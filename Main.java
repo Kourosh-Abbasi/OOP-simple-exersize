@@ -13,8 +13,6 @@ public class Main {
         person2.ShowDetails();
 
         person2.underAgeOrNot();
-
-
     }
 }
 
