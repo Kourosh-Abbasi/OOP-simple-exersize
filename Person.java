@@ -34,6 +34,5 @@ public class Person {
             System.out.println("FBI OPEN UP!");
         }
     }
-
 }
 

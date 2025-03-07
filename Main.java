@@ -4,7 +4,7 @@ public class Main {
         person.ShowDetails();
         person.underAgeOrNot();
 
-        Person person2 = new Person("Harry", 30 );
+        Person person2 = new Person("Harry", 30);
 
         person2.setName("Sharlot");
 
@@ -13,6 +13,5 @@ public class Main {
         person2.ShowDetails();
 
         person2.underAgeOrNot();
-
     }
 }
