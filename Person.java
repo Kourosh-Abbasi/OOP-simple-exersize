@@ -23,9 +23,22 @@ public class Person{
         this.age = age;
     }
 
+    public String isAdult(){
+        if(this.age >= 18){
+            return "an adult";
+        }
+        else if(this.age < 0){
+            return "a time traveler lost in the past";
+        }
+        else{
+            return "a kid";
+        }
+    }
+
     public void display(){
         System.out.println("name: " + this.name);
         System.out.println("age: " + this.age);
+        System.out.println("and (he/she) is ");
     }
-    
+
 }
